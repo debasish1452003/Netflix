@@ -15,7 +15,7 @@ export default function App() {
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/signup" element={<Signup />} />
         <Route exact path="/player" element={<Player />} />
-        <Route exact path="/" element={<Netflix />} />
+        <Route exact path="/Netflix" element={<Netflix />} />
         <Route exact path="/movies" element={<Movies />} />
         <Route exact path="/tv" element={<TVShows />} />
         <Route exact path="/mylist" element={<UserLiked />} />

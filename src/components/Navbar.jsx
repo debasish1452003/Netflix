@@ -8,7 +8,7 @@ import { onAuthStateChanged, signOut } from 'firebase/auth'
 
 export default function Navbar({ isScrolled }) {
     const links = [
-        { name: "Home", link: "/" },
+        { name: "Home", link: "/Netflix" },
         { name: "TV Shows", link: "/tv" },
         { name: "Movies", link: "/movies" },
         { name: "My List", link: "/mylist" },
